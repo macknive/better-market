@@ -1,0 +1,71 @@
+@font-face {
+  font-family: Campton;
+  src: url("CamptonMedium.otf");
+}
+
+body {
+  height: 100%;
+  background-image: url("bg.png");
+  font-family: 'Campton';
+  font-weight: 500;
+}
+
+ .left-card {
+  border-radius: 25px 0 0 25px;
+  background: #084B3E;
+  max-width: 508px;
+ }
+
+ .right-card {
+  border-radius: 0 25px 25px 0;
+  background: #FFFFFF;
+  padding-right: 100px;
+  padding-left: 30px;
+
+
+
+ }
+
+ .title-1 {
+  font-size: 39px;
+  color: #F9E2BA;
+  line-height: 45px;
+  letter-spacing: -1px;
+ }
+
+ .title-2 {
+  font-size: 34px;
+ } 
+
+ label {
+  letter-spacing: 0.21px;
+ }
+
+ .red {
+  color: #E33D5F
+ }
+
+ .green {
+  color: #19B07E;
+ }
+
+ input {
+   border: none;
+   background: transparent;
+   border-bottom: 1px solid #343434;
+   outline: none;
+ }
+
+ button {
+  margin: 40px 0 60px 0;
+  background-color: #00C38B;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 20px;
+  padding: 20px 40px;
+ }
+
+ .grey {
+  color: #BDBDBD;
+  font-size: 14px;
+ }
